@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header.hero {
+  background-color: #007BFF;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #007BFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features .feature-grid,
+.pricing .pricing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.feature, .plan {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.testimonials .testimonial {
+  margin: 20px auto;
+  max-width: 500px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.pricing .plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.pricing .plan button {
+  background: #007BFF;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .socials a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .feature-grid, .pricing-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature, .plan {
+    width: 90%;
+  }
+}
