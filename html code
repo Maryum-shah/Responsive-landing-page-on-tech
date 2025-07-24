@@ -1,0 +1,77 @@
+<header class="hero">
+  <h1>LaunchPro — Your Ultimate Task Launcher</h1>
+  <p>Organize, automate, and boost your productivity with LaunchPro.</p>
+  <a href="#pricing" class="btn">Get Started</a>
+</header>
+
+<section class="features">
+  <h2>Features</h2>
+  <div class="feature-grid">
+    <div class="feature">
+      <h3>Fast Setup</h3>
+      <p>Get started in under 5 minutes with no coding required.</p>
+    </div>
+    <div class="feature">
+      <h3>Automation</h3>
+      <p>Automate repetitive tasks and save hours weekly.</p>
+    </div>
+    <div class="feature">
+      <h3>Collaboration</h3>
+      <p>Work with your team seamlessly in real-time.</p>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <h2>What Our Users Say</h2>
+  <div class="testimonial">
+    <p>"LaunchPro changed the way I manage my work!"</p>
+    <strong>— Ayesha, Project Manager</strong>
+  </div>
+  <div class="testimonial">
+    <p>"Clean UI and powerful features — 10/10."</p>
+    <strong>— Hamza, Developer</strong>
+  </div>
+</section>
+
+<section id="pricing" class="pricing">
+  <h2>Pricing Plans</h2>
+  <div class="pricing-grid">
+    <div class="plan">
+      <h3>Free</h3>
+      <p>$0 / month</p>
+      <ul>
+        <li>Basic Features</li>
+        <li>Email Support</li>
+      </ul>
+      <button>Choose</button>
+    </div>
+    <div class="plan">
+      <h3>Pro</h3>
+      <p>$15 / month</p>
+      <ul>
+        <li>All Features</li>
+        <li>Priority Support</li>
+      </ul>
+      <button>Choose</button>
+    </div>
+    <div class="plan">
+      <h3>Team</h3>
+      <p>$49 / month</p>
+      <ul>
+        <li>Unlimited Users</li>
+        <li>Dedicated Manager</li>
+      </ul>
+      <button>Choose</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 LaunchPro. All rights reserved.</p>
+  <div class="socials">
+    <a href="#">Facebook</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Twitter</a>
+  </div>
+</footer>
